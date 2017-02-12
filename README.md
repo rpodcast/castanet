@@ -1,3 +1,7 @@
+[![Build Status](https://travis-ci.org/mattstratton/castanet.svg?branch=master)](https://travis-ci.org/devopsdays/devopsdays-theme)
+[![GitHub release](https://img.shields.io/github/release/mattstratton/castanet.svg)](https://github.com/qubyte/rubidium/releases)
+[![license](https://img.shields.io/github/license/mattstratton/castanet.svg)]()
+
 [![Stories in Ready](https://badge.waffle.io/mattstratton/castanet.svg?label=ready&title=Ready)](http://waffle.io/mattstratton/devopsdays-web) [![Stories in Progress](https://badge.waffle.io/mattstratton/castanetb.svg?label=ready&title=In%20Progress)](http://waffle.io/mattstratton/devopsdays-web)
 
 You can see progress on tasks at http://waffle.io/mattstratton/castanet
@@ -14,10 +18,8 @@ An example site can be found at http://sample-castanet.netlify.com/
 
 ## Installation
 
-Inside the folder of your Hugo site run:
+Download the latest version (zip file, not source code) from the [Releases](https://github.com/mattstratton/castanet/releases) page.
 
-    $ cd themes
-    $ git clone https://github.com/mattstratton/castanet
 
 For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
 

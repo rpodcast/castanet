@@ -1,5 +1,24 @@
 # Change Log
 
+## [v0.2.5](https://github.com/mattstratton/castanet/tree/v0.2.5) (2017-02-11)
+[Full Changelog](https://github.com/mattstratton/castanet/compare/v0.2.4...v0.2.5)
+
+**Closed issues:**
+
+- Missing navbar items when testing included example site [\#36](https://github.com/mattstratton/castanet/issues/36)
+
+**Merged pull requests:**
+
+- Fix missing menu items in navigation bar [\#37](https://github.com/mattstratton/castanet/pull/37) ([thercast](https://github.com/thercast))
+
+## [v.0.2.1](https://github.com/mattstratton/castanet/tree/v.0.2.1) (2017-02-11)
+[Full Changelog](https://github.com/mattstratton/castanet/compare/v.0.2.0...v.0.2.1)
+
+**Implemented enhancements:**
+
+- refactor to the block/base layout [\#35](https://github.com/mattstratton/castanet/issues/35)
+- add support for other color schemes [\#27](https://github.com/mattstratton/castanet/issues/27)
+
 ## [v.0.2.0](https://github.com/mattstratton/castanet/tree/v.0.2.0) (2016-10-06)
 [Full Changelog](https://github.com/mattstratton/castanet/compare/v.0.1.4...v.0.2.0)
 
