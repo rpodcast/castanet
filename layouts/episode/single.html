@@ -8,7 +8,7 @@
 
   <div class = "row">
     <div class = "col-md-3">
-      <img src = "{{ .Params.episode_image }}" class="img-responsive episode_image" />
+      {{ if isset .Params "episode_image" }}<img src = "{{ .Params.episode_image }}" class="img-responsive episode_image" />{{ end }}
     </div>
     <div class = "row">
       <div class = "col-md-8">
