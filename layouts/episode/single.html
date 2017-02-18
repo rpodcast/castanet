@@ -7,14 +7,22 @@
   </div>
 
   <div class = "row">
+    {{ if isset .Params "episode_image" }}
     <div class = "col-md-3">
-      {{ if isset .Params "episode_image" }}<img src = "{{ .Params.episode_image }}" class="img-responsive episode_image" />{{ end }}
+      <img src = "{{ .Params.episode_image }}" class="img-responsive episode_image" />
     </div>
     <div class = "row">
       <div class = "col-md-8">
         {{ .Description | markdownify }}
       </div>
     </div>
+    {{ else }}
+    <!-- <div class = "row"> -->
+      <div class = "col-md-12">
+        {{ .Description | markdownify }}
+      </div>
+    <!-- </div> -->
+    {{ end }}
     <div class = "row">
       <div class = "col-md-12">
         <audio controls>
