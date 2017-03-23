@@ -3,9 +3,11 @@
   <div class="col-md-12">
     <nav class = "navbar navbar-default navbar_footer">
     <ul class="nav navbar-nav">
+      {{ if (isset .Site.Params "privacy_policy" ) }}
       <li>
         <a href="https://www.iubenda.com/privacy-policy/7806631">Privacy Policy</a>
       </li>
+      {{ end }}
     </ul>
     <ul class="nav navbar-nav navbar-right">
       {{ if (isset .Site.Params "copyright_notice" ) }}
