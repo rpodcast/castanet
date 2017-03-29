@@ -1,0 +1,45 @@
+<div class="row"><!-- subscribe begin -->
+  <div class="col-md-12 sidebar_general">
+    <div class = "row">
+      <div class = "col-md-12">
+        <h3 class="sidebar_headline text-uppercase">Subscribe</h3>
+      </div>
+    </div>
+    <div class="row">
+      {{ if (isset .Site.Params "soundcloud_subscribe") }}
+        <div class = "col-md-12 subscribe_buttons subscribe_buttons">
+          <a class="btn btn-default" href="{{ .Site.Params.soundcloud_subscribe}}"><i class="fa fa-soundcloud"></i>&nbsp;Soundcloud</a>
+        </div>
+      {{ end }}
+      {{ if (isset .Site.Params "itunes_subscribe") }}
+        <div class = "col-md-12 subscribe_buttons subscribe_buttons">
+          <a class="btn btn-default" href="{{ .Site.Params.itunes_subscribe}}"><i class="fa fa-apple"></i>&nbsp;iTunes</a>
+        </div>
+      {{ end }}
+      {{ if (isset .Site.Params "pocketcasts_subscribe") }}
+        <div class = "col-md-12 subscribe_buttons subscribe_buttons">
+          <a class="btn btn-default" href="{{ .Site.Params.pocketcasts_subscribe}}"><i class="fa fa-podcast"></i>&nbsp;Pocket Casts</a>
+        </div>
+      {{ end }}
+      {{ if (isset .Site.Params "android_subscribe") }}
+        <div class = "col-md-12 subscribe_buttons">
+          <a class="btn btn-default" href="{{ .Site.Params.android_subscribe }}"><i class="fa fa-android"></i>&nbsp;Android</a>
+        </div>
+      {{ end }}
+      {{ if (isset .Site.Params "google_play_subscribe") }}
+        <div class = "col-md-12 subscribe_buttons">
+          <a class="btn btn-default" href="{{ .Site.Params.google_play_subscribe }}"><i class="fa fa-music"></i>&nbsp;Google Play Music</a>
+        </div>
+      {{ end }}
+      {{ if (isset .Site.Params "rss_subscribe" )}}
+        <div class = "col-md-12 subscribe_buttons">
+          <a class="btn btn-default" href="{{ .Site.params.rss_subscribe }}"><i class="fa fa-rss"></i>&nbsp;RSS</a>
+        </div>
+      {{ else }}
+        <div class = "col-md-12 subscribe_buttons">
+          <a class="btn btn-default" href="/episode/index.xml"><i class="fa fa-rss"></i>&nbsp;Subscribe via RSS</a>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</div><!-- subscribe end -->
