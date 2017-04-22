@@ -1,7 +1,6 @@
 +++
 Description = "Episode description (may use markdown)"
 PublishDate = "" # this is the datetime for the when the epsiode was published. This will default to Date if it is not set. Example is "2016-04-25T04:09:45-05:00"
-podcast_dir = "" # custom portion of podcast URL after the media prefix.  Defaults to blank if not set.
 podcast_file = "###.mp3" # the name of the podcast file, after the media prefix.
 podcast_duration = ""
 podcast_length = "" # the length of the episode in bytes
